@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap');
 
-body {
-    font-family: 'Catamaran', sans-serif;;
-}
 
 .top {
-    background-color: #142038;
+    background-color: #4187c6;
 }
-  
   
 .navigation {
     background-color: #142038;
     }
+
+.link {
+    text-decoration: none;
+    color: aliceblue;
+}
 
 main {
     background-image: url(/imagenes/fondo.svg);
@@ -24,10 +24,12 @@ main {
 
 .first-header {
     font-size: 20px;
+    font-weight: 500;
 }
 
 .subfirst-header {
     font-size: 120px;
+    font-weight: 1000;
 }
 
 .textinfo {
@@ -38,7 +40,7 @@ main {
     border: none;
     border-radius: 10px;
     background-color:#142038;
-    padding: 15px;
+    padding: 18px;
     margin-top: 30px;
     width: 30%;
     height: 10%;
@@ -59,6 +61,8 @@ main {
 
 .notice {
     background-color: #102757;
+    background-image: url(/imagenes/fondo2.png);
+    background-size: cover;
 }
 .second-header {
     font-size: 60px;
