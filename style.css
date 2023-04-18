@@ -15,7 +15,6 @@
 
 main {
     background-image: url(/imagenes/fondo.svg);
-    background-size: cover;
     background-repeat: no-repeat;
     color: aliceblue;
     background-color: #142038;
@@ -54,18 +53,35 @@ main {
 
 }
 
-.images {
-    position: absolute;
-    
-}
 
 .notice {
-    background-color: #102757;
-    background-image: url(/imagenes/fondo2.png);
-    background-size: cover;
+    background: rgb(16,39,87);
+    background: -webkit-linear-gradient(90deg, rgba(16,39,87,1) 10%, rgba(24,38,66,1) 33%);
 }
 .second-header {
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
     padding: 50px;
+    font-weight: 900;
+}
+
+
+.media {
+    background-color: #142038;
+    background-image: url(/imagenes/fondo3.svg);
+    background-repeat: no-repeat;
+}
+
+.netflix {
+    font-size: 23px;
+}
+
+.netflix-description {
+    font-size: 18px;
+}
+
+.third-header {
+    font-size: 70px;
+    padding: 50px;
+    font-weight: 900;
 }
