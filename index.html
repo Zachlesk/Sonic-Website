@@ -32,7 +32,7 @@
 
     <div class="row g-0"> 
         <div class="col-11"> 
-            <nav class="navbar-expand-md">
+            <nav class="navbar-expand">
                 <div class="navigation container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -51,7 +51,7 @@
             </nav>
           </div>
               <div class="col-1">
-                <img src="/imagenes/sega2.webp" width="112" height="136">
+                <img class="sega" src="/imagenes/sega2.webp">
         </div>
         </div>
 
@@ -82,8 +82,8 @@
 
 <div class="notice container-fluid p-lg-5"> 
     <h1 class="second-header text-white m-5"> ¡Sonic en las noticias! </h1>
-    <div class="cards row row-cols-1 row-cols-md-3 g-4 p-5 m-5">
-        <div class="col">
+    <div class="d-flex row justify-content-center cards row row-cols-1 row-cols-md-3 g-4 p-5 m-5">
+        <div class="col" style="width: 420px; height:460px;">
           <div class="card h-100 p-4 text-white" style="background-color: #142038;;"> 
             <img src="https://cdn.akamai.steamstatic.com/steam/apps/2324650/capsule_616x353.jpg?t=1680602230" class="card-img-top" alt="...">
             <div class="card-body p-5" style="text-align: center;">
@@ -92,7 +92,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" style="width: 420px; height:460px;">
           <div class="card h-100 p-4 text-white" style="background-color: #142038;;"> 
             <img src="https://www.nintenderos.com/wp-content/uploads/2022/09/sonic-logo.jpg" class="card-img-top" alt="...">
             <div class="card-body p-5 " style="text-align: center;">
@@ -101,7 +101,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" style="width: 420px; height:460px;">
           <div class="card h-100 p-4 text-white" style="background-color: #142038;;"> 
             <img src="https://ramenparados.com/wp-content/uploads/2023/04/sonic-origins-plus-04-1000x600.webp" class="card-img-top" alt="...">
             <div class="card-body p-5" style="text-align: center;">
@@ -111,7 +111,9 @@
           </div>
         </div>
     </div>
-    <button class="buttonknow d-flex justify-content-center" > Ver más noticias </button>
+    <div class="d-flex justify-content-center"> 
+    <button class="buttonknow" > Ver más noticias </button>
+  </div>
       </div>
 
       <section class="media container-fluid">
@@ -120,75 +122,84 @@
           <iframe src="https://www.youtube.com/embed/sHybtsOUfOA?autoplay=1&mute=1" title="Sonic Prime | Tráiler oficial | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="p-5 m-5" height="700"width="1200" autoplay> </iframe>
         
   
-        <div class="text">
-          <h1 class="netflix text-white" > Sonic Prime - Serie de Netflix </h1>
-              <h2 class="netflix-description text-white"> Las adrenalínicas aventuras de Sonic, el erizo, se salen de control cuando un encuentro con el Dr. Eggman tiene consecuencias catastróficas. Sonic emprende una carrera a toda velocidad por una serie de universos paralelos, descubriendo mundos extraños y conociendo a nuevos personajes en una épica travesía. </h2>
+        <div class="text d-flex row justify-content-center">
+          <h1 class="netflix text-white d-flex row justify-content-center" > Sonic Prime - Serie de Netflix </h1>
+              <h2 class="netflix-description text-white "> Las adrenalínicas aventuras de Sonic, el erizo, se salen de control cuando un encuentro con el Dr. Eggman tiene consecuencias catastróficas. Sonic emprende una carrera a toda velocidad por una serie de universos paralelos, descubriendo mundos extraños y conociendo a nuevos personajes en una épica travesía. </h2>
         </div>
         </div>
       </section>
 
-      <div class="notice container-fluid p-lg-5"> 
-        <h1 class="third-header text-white m-5"> ¡Sonic en <br> videojuegos! </h1>
-        <div class="cards row row-cols-1 row-cols-md-3 g-4 p-5 m-5">
-            <div class="col">
-              <div class="card h-100 p-0 text-white" style="background-color: #142038;;"> 
-                <img src="https://cdn.akamai.steamstatic.com/steam/apps/2324650/capsule_616x353.jpg?t=1680602230" class="card-img-top" alt="...">
+      <div class="videogames container-fluid p-lg-5 d-flex row justify-content-center align-items-center"> 
+        <div class="row">
+          <div class="col-md-6 col-sm-12 z-1" style="bottom:310px; margin: auto;"> 
+            <h1 class="third-header text-white m-5"> ¡Sonic en <br> videojuegos! </h1> 
+            </div>
+          <div class="sonic2 col-md-6 col-sm-12 z-0"> 
+        <img class="videosonic img-fluid" src="/imagenes/sonic2.png" width="700">
+      </div>
+        <div class="d-flex row justify-content-center cards row row-cols-1 row-cols-md-3 g-4">
+            <div class="col" style=" width: 360px; height:420px;">
+              <div class="card h-100 p-4 text-white" style="background-color: #142038;;"> 
+                <img src="/imagenes/video1.webp" class="card-img-top img-fluid" alt="...">
                 <div class="card-body p-5" style="text-align: center;">
-                  <h5 class="card-title">  </h5>
+                  <h5 class="card-title">  Sonic Adventure </h5>
                   <p class="card-text">  </p>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" style="width: 360px; height:420px;">
               <div class="card h-100 p-4 text-white" style="background-color: #142038;;"> 
-                <img src="https://www.nintenderos.com/wp-content/uploads/2022/09/sonic-logo.jpg" class="card-img-top" alt="...">
+                <img src="/imagenes/video2.jpg" height="530px" class="card-img-top" alt="...">
                 <div class="card-body p-5 " style="text-align: center;">
-                  <h5 class="card-title">  </h5>
+                  <h5 class="card-title"> Sonic Shuffle </h5>
                   <p class="card-text">  </p>
                 </div>
               </div>
               </div>
-              <div class="col">
+              <div class="col" style="width: 360px; height:420px;">
                 <div class="card h-100 p-4 text-white" style="background-color: #142038;;"> 
-                  <img src="https://www.nintenderos.com/wp-content/uploads/2022/09/sonic-logo.jpg" class="card-img-top" alt="...">
+                  <img src="/imagenes/video3.webp" height="530px" class="card-img-top" alt="...">
                   <div class="card-body p-5 " style="text-align: center;">
-                    <h5 class="card-title">  </h5>
+                    <h5 class="card-title"> Sonic Colors Ultimate </h5>
                     <p class="card-text">  </p>
                   </div>
                 </div>
                 </div>
           </div>
 
-          <div class="cards row row-cols-1 row-cols-md-3 g-4 p-5 m-5">
-            <div class="col">
+          <div class="d-flex row justify-content-center cards row row-cols-1 row-cols-md-3 g-4">
+            <div class="col" style="width: 360px; height:420px;">
               <div class="card h-100 p-4 text-white" style="background-color: #142038;;"> 
-                <img src="https://cdn.akamai.steamstatic.com/steam/apps/2324650/capsule_616x353.jpg?t=1680602230" class="card-img-top" alt="...">
+                <img src="/imagenes/video4.webp" height="530px"class="card-img-top" alt="...">
                 <div class="card-body p-5" style="text-align: center;">
-                  <h5 class="card-title">  </h5>
+                  <h5 class="card-title"> Sonic Origins </h5>
                   <p class="card-text">  </p>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" style="width: 360px; height:420px;">
               <div class="card h-100 p-4 text-white" style="background-color: #142038;;"> 
-                <img src="https://www.nintenderos.com/wp-content/uploads/2022/09/sonic-logo.jpg" class="card-img-top" alt="...">
+                <img src="/imagenes/video5.webp" class="card-img-top" alt="...">
                 <div class="card-body p-5 " style="text-align: center;">
-                  <h5 class="card-title">  </h5>
+                  <h5 class="card-title"> Sonic Adventure 2 </h5>
                   <p class="card-text">  </p>
                 </div>
               </div>
               </div>
-              <div class="col">
+              <div class="col" style="width: 360px; height:420px;" >
                 <div class="card h-100 p-4 text-white" style="background-color: #142038;;"> 
-                  <img src="https://www.nintenderos.com/wp-content/uploads/2022/09/sonic-logo.jpg" class="card-img-top" alt="...">
+                  <img src="/imagenes/video6.webp" class="img-fluid card-img-top" alt="...">
                   <div class="card-body p-5 " style="text-align: center;">
-                    <h5 class="card-title"> </h5>
+                    <h5 class="card-title"> Sonic Dash + </h5>
                     <p class="card-text">  </p>
                   </div>
                 </div>
                 </div>
           </div>
-                
+          </div>
+
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
