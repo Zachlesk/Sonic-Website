@@ -1,51 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Changa+One&family=Pacifico&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Changa+One&family=Pacifico&family=Sedgwick+Ave+Display&display=swap"
+        rel="stylesheet">
 
     <title>Sonic</title>
 </head>
+
 <body>
-    <div class="content d-flex flex-column row-cols-sm-1"  style="background-color: blueviolet;">
+    <div class="content d-flex flex-column row-cols-sm-1 g-5" style="background-color: blueviolet; ">
         <div class="row ">
             <div class="col-12 py-4 " style="background-color: aqua;">menu</div>
             <div class="col-md-1 col-lg-1 py-4 "></div>
             <div class="col-md-5 col-sm-12 col-lg-5 py-4 ">
-                <img src="img/portada.png" class="img-fluid" alt="" ></div>
-            <div class="col col-md-6 col-sm-12 col-lg-4" style="color: azure;left:65em; margin-top:110px;  font-family: 'Catamaran', sans-serif; right:18em;">
-                    <h1 class="txt" style="text-align:center; font-size:4em;"> PERSONAJES</h1>
-                    <p class="txt" style="font-size:1em; text-align: center;">Desde los personajes Villanos y Heroes aquí encontraras <br>
-                        la gran variedad de personajes que hacen parte de <br> esta gran aventura a lo largo de los años..</p>
-                </div>
-        </div>
-        <div class="content"  style="background-image:url(img/fondo2.png);background-size: cover;background-repeat: no-repeat;">
-        <div class="row py-4 gy-5">
-            <div class="col-2 py-4"  style="background-color: rgb(42, 165, 42);"></div>
-            <div class="col-8 py-4"  style="background-color: brown;"> 
-                <h3 class="" style="text-align:left;">Sonic</h3>
-                <img src="img/sonic3.png"alt="" width="400em">
+                <img src="img/portada.png" class="img-fluid" alt="">
             </div>
-            <div class="col-2 py-4"  style="background-color: rgb(42, 50, 165);"></div>
+            <div class="col col-md-6 col-sm-12 col-lg-4"
+                style="color: azure;left:65em; margin-top:110px;  font-family: 'Catamaran', sans-serif; right:18em;">
+                <h1 class="txt" style="text-align:center; font-size:4em;"> PERSONAJES</h1>
+                <p class="txt" style="font-size:1em; text-align: center;">Desde los personajes Villanos y Heroes aquí
+                    encontraras <br>
+                    la gran variedad de personajes que hacen parte de <br> esta gran aventura a lo largo de los años..
+                </p>
+            </div>
         </div>
-        <div class="row py-4">
-            <div class="col-2 py-4"  style="background-color: rgb(42, 165, 42);"></div>
-            <div class="col-8 py-4"  style="background-color: rgb(241, 134, 134);"></div>
-            <div class="col-2 py-4"  style="background-color: rgb(255, 0, 0);"></div>
+        <div class="content"
+            style="background-image:url(img/fondo2.png);background-size: cover;background-repeat: no-repeat;">
+            <div class="row py-4 gy-5">
+                <div class="col-2 py-4"></div>
+                <div class="col-8 py-4" style="background-color: rgb(95, 115, 231); border-radius:20px;">
+                    <div class="row">
+                        <div class="col-5">
+                            <h3 class="" style="text-align:left;"></h3>
+                            <img src="img/sonic3.png" alt="" width="340em">
+                        </div>
+                        <div class="col-6 ">
+                            <div class="accordion" id="accordionExample" style="margin-top:6em;">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <h1>Sonic</h1>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="" style="margin-top:3em;">Sonic es un héroe muy popular, conocido
+                                                por su velocidad increíble y su personalidad atrevida y alegre.
+                                                Es un erizo azul antropomórfico, lo que significa que tiene
+                                                características humanas,
+                                                como la habilidad de hablar y caminar en dos patas, pero mantiene rasgos
+                                                animales como su pelaje y púas.
+                                                El objetivo principal de Sonic es proteger su mundo de los planes
+                                                malvados del Dr. Eggman, un científico
+                                                loco que desea dominar el universo.A lo largo de los años, Sonic ha
+                                                evolucionado y cambiado en apariencia,
+                                                pero su espíritu aventurero y su compromiso con la justicia y la amistad
+                                                han permanecido como sus principales
+                                                características.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-2 py-4"> </div>
+                </div>
+            </div>
+            <div class="row py-4 gy-5">
+                <div class="col-2 py-4"></div>
+                <div class="col-8 py-4" style="background-color: rgb(51, 53, 65); border-radius:20px;">
+                    <div class="row">
+                        <div class="col-5">
+                            <h3 class="" style="text-align:left;"></h3>
+                            <img src="img/supesonic.png" alt="" width="340em">
+                        </div>
+                        <div class="col-6 ">
+                            <div class="accordion2" id="accordion2" style="margin-top:6em;">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapsetwo" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <h1>Super Sonic</h1>
+                                        </button>
+                                    </h2>
+                                    <div id="collapsetwo" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordion2">
+                                        <div class="accordion-body">
+                                            <p class="" style="margin-top:3em;">Sonic es un héroe muy popular, conocido
+                                                por su velocidad increíble y su personalidad atrevida y alegre.
+                                                Es un erizo azul antropomórfico, lo que significa que tiene
+                                                características humanas,
+                                                como la habilidad de hablar y caminar en dos patas, pero mantiene rasgos
+                                                animales como su pelaje y púas.
+                                                El objetivo principal de Sonic es proteger su mundo de los planes
+                                                malvados del Dr. Eggman, un científico
+                                                loco que desea dominar el universo.A lo largo de los años, Sonic ha
+                                                evolucionado y cambiado en apariencia,
+                                                pero su espíritu aventurero y su compromiso con la justicia y la amistad
+                                                han permanecido como sus principales
+                                                características.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-2 py-4"> </div>
+
+                </div>
+
+
+            </div>
         </div>
-        <div class="row py-4" >
-            <div class="col-2 py-4"  style="background-color: rgb(42, 165, 42);"></div>
-            <div class="col-8 py-4"  style="background-color: brown;"></div>
-            <div class="col-2 py-4"  style="background-color: rgb(255, 102, 0);"></div>
-        </div>
-    </div>
-    </div>
-    
+
 </body>
+
 </html>
