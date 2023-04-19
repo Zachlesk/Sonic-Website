@@ -14,7 +14,7 @@
 }
 
 .sega {
-        width: 152px;
+        width: 112px;
         height: 136px;
         object-fit: contain;
         background-color: #4187c6;
@@ -105,14 +105,19 @@ main {
 .videogames {
     background-color: #39185b;
     background-size: cover;
+    background-repeat: no-repeat;   
 }
 
 .hiper {
     background: rgb(16,39,87);
-    background: -webkit-linear-gradient(90deg, rgb(32, 63, 129) 10%, #39185b 33%);
+    background: -webkit-linear-gradient(90deg, #4187c6 10%, #39185b 33%);
     background-size: cover ;
 }
 
 .behind {
     background-color: #39185b;
+}
+
+.footer {
+    background-color: #4187c6;
 }
