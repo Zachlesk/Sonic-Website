@@ -1,0 +1,24 @@
+
+.top {
+    background-color: #4187c6;
+}
+  
+.navigation {
+    background-color: #142038;
+    }
+
+.link {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.sega {
+        width: 154px;
+        height: 136px;
+        object-fit: contain;
+        background-color: #4187c6;
+}
+
+.footer {
+    background-color: rgb(16,39,87);
+}
