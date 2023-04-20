@@ -11,6 +11,7 @@
 .link {
     text-decoration: none;
     color: aliceblue;
+
 }
 
 .sega {
@@ -61,9 +62,11 @@ main {
 
 }
 
-#myCanvas {
-    border: 1px solid black;
-  }
+@media (max-width: 548px) {
+    .sonic1 {
+        width: 120%;
+    }
+}
 
 .notice {
     background: rgb(16,39,87);
@@ -101,6 +104,12 @@ main {
     font-size: 70px;
     padding: 50px;
     font-weight: 900;
+}
+
+@media (max-width: 548px) {
+    .third-header {
+        font-size: 20px;
+    }
 }
 
 .sonic2 {
