@@ -61,11 +61,19 @@ main {
 
 }
 
+#myCanvas {
+    border: 1px solid black;
+  }
 
 .notice {
     background: rgb(16,39,87);
     background: -webkit-linear-gradient(90deg, rgba(16,39,87,1) 10%, rgba(24,38,66,1) 33%);
 }
+
+.notices:hover {
+    transform: scale(1.1);
+}
+
 .second-header {
     font-size: 70px;
     text-align: center;
