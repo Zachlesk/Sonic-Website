@@ -14,15 +14,49 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Changa+One&family=Pacifico&family=Sedgwick+Ave+Display&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
     <title>Sonic</title>
 </head>
 
 <body>
+    <header class="top container-fluid">
+        <div class="row g-0">
+          <div class="col-5"> 
+            <img src="img/sega.png" width="60" class="img-fluid"> 
+          </div>
+          <div class="col-6 m-2 g-5"> 
+            <img class="rings" src="img/anillo.png" class="mx-3" width="40">
+            <img class="rings" src="img/anillo.png" class="mx-3" width="40">
+            <img class="rings" src="img/anillo.png" class="mx-3" width="40">
+          </div>
+        </div>
+  
+        </header>
+
+
     <div class="content d-flex flex-column row-cols-sm-1 g-5"
-     style="background-color: rgb(72, 3, 138);  font-family: 'Catamaran', sans-serif; right:18em; ;">
+     style="background-color: rgb(72, 3, 138);  font-family: 'Catamaran', sans-serif; right:18em; ">
         <div class="row " style="border-bottom: dotted;border-width:2em;">
-            <div class="col-12 py-4 " style="background-color: aqua;">menu</div>
+            <div class="col-12" > 
+                <nav class="navbar-expand">
+                    <div class="navigation container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+    
+                        <div class="collapse navbar-collapse p-5">
+                            <div class="navbar-nav mx-auto">
+                                <a class="link nav-link" href="../index.html"> Inicio </a>
+                                <a class="link nav-link" href="#"> Información </a>
+                                <a class="link nav-link" href="#"> Historia </a>
+                                <a class="link nav-link" href="#"> Personajes </a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </nav>
+              </div>
             <div class="col-md-1 col-lg-1 py-4 "></div>
             <div class="col-md-5 col-sm-12 col-lg-5 py-4 ">
                 <img src="img/portada.png" class="img-fluid" alt="">
@@ -83,16 +117,16 @@
                         </div>
                 <div class="col-6 ">
                     <div class="accordion2" id="accordion2" style="margin-top:6em;">
-                     <div class="accordion-item">
+                     <div class="accordion-item" >
                          <h2 class="accordion-header">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapsetwo" aria-expanded="true"aria-controls="collapseTwo">
-                        <h1>Shadow</h1>
+                        data-bs-target="#collapsetwo" aria-expanded="true"aria-controls="collapseTwo" style="background-color:  rgb(51, 53, 65);">
+                        <h1 class="acor" style="color: azure;">Shadow</h1>
                         </button>
                         </h2>
-                    <div id="collapsetwo" class="accordion-collapse collapse show"data-bs-parent="#accordion2">
+                    <div id="collapsetwo" class="accordion-collapse collapse show"data-bs-parent="#accordion2" style="background-color:  rgb(51, 53, 65);">
                         <div class="accordion-body">
-                            <p class="" style="margin-top:3em;">Shadow the Hedgehog es un erizo negro
+                            <p class="desc" style="margin-top:3em; color: azure;">Shadow the Hedgehog es un erizo negro
                              antropomórfico que es el rival de Sonic y a menudo actúa como un anti-héroe. Es experto
                              en artes marciales y puede manipular el caos para hacer cosas como teletransportarse y
                             volar.Tiene una personalidad fría y misteriosa, y a menudo lucha por su propia
@@ -121,7 +155,7 @@
                          <h2 class="accordion-header">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="true"aria-controls="collapseThree">
-                        <h1>Dr. Eggman</h1>
+                        <h1 class="acor">Dr. Eggman</h1>
                         </button>
                         </h2>
                     <div id="collapseThree" class="accordion-collapse collapse show"data-bs-parent="#accordion3">
@@ -240,6 +274,8 @@
                 <div class="col-12"  >
                     <img src="img/pie.png" alt="" class="img-fluid" style="display: block;
                     margin-left: auto; margin-right: auto;" >
+
+                    <button type="submit" ></button>
                 </div>
             </div>
 

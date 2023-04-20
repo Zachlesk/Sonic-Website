@@ -12,27 +12,59 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Changa+One&family=Pacifico&family=Sedgwick+Ave+Display&display=swap"
-            rel="stylesheet">    
+            rel="stylesheet">   
+        <link rel="stylesheet" href="style.css"> 
         
     <title>Shop</title>
 </head>
 <body>
-      <div class="container-fluid" style="background-image:url(img/fondo2.png);color: azure;
+
+  <header class="top container-fluid">
+    <div class="row g-0">
+      <div class="col-5"> 
+        <img src="img/sega.png" width="60" class="img-fluid"> 
+      </div>
+      <div class="col-6 m-2 g-5"> 
+        <img class="rings" src="img/anillo.png" class="mx-3" width="40">
+        <img class="rings" src="img/anillo.png" class="mx-3" width="40">
+        <img class="rings" src="img/anillo.png" class="mx-3" width="40">
+      </div>
+    </div>
+
+    </header>
+      <div class="container-fluid g-5" style="background-image:url(img/fondo2.png);color: rgb(255, 255, 255);
       font-family: 'Catamaran', sans-serif; ">
-        
-        
-        <div class="row py-4 gy-5" style="color: azure;">
-          <div class="col-12 ">
-            
-            <h1 class="" style="text-align: center;"> Tienda Oficial Sonic</h1>
-          </div>
+      <div class="col-12" > 
+        <nav class="navbar-expand">
+            <div class="navigation container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse p-5">
+                    <div class="navbar-nav mx-auto">
+                        <a class="link nav-link" href="../index.html"> Inicio </a>
+                        <a class="link nav-link" href="#"> Información </a>
+                        <a class="link nav-link" href="#"> Historia </a>
+                        <a class="link nav-link" href="#"> Personajes </a>
+                    </div>
+                </div>
+               
+            </div>
+        </nav>
+       
+        <div class="row py-4 px-5 gy-5 gx-2" style="color: rgb(255, 255, 255);align-items: center;">
+          <div class="col-12 " style="align-items: center;">
+            <h1 class="" style="text-align: center; border-bottom:solid;border-color: blue;">  <img src="img/sega.png" width="150em" height="100em" alt="">
+               Sonic The Hedgehog Tienda Oficial<img src="img/sonic2.png" width="150em" height="100em" alt="">  </h1>
+          </div> 
           <div class="col-md-4">
-            <div class="card" style="background-color: rgb(156, 187, 255);">
+            <div class="card" style="background-color: rgb(156, 187, 255); object-fit: cover;">
               <img class="card-img-top" src="img/art1.png" alt="art" 
               style="border-radius: 70px;" height="500em" >
               <div class="card-body">
                 <h4 class="card-title">Pop Sonic </h4>
-                <p class="card-text">Descripción </p>
+                <p class="card-text">Figura coleccionable Pop </p>
                 <a href="#" class="btn btn-primary">Comprar ahora</a>
               </div>
               <div class="col-12 ">
@@ -42,12 +74,12 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card" style="background-color: rgb(156, 187, 255);">
+            <div class="card" style="background-color: rgb(156, 187, 255);object-fit: cover;">
               <img class="card-img-top" src="img/art.png" alt="art1"
                style="border-radius: 70px;border-color: blue;"height="500em" >
               <div class="card-body">
-                <h4 class="card-title">Articulo</h4>
-                <p class="card-text">Descripción </p>
+                <h4 class="card-title">Pop Shadow|</h4>
+                <p class="card-text">Figura coleccionable Pop</p>
                 <a href="#" class="btn btn-primary">Comprar ahora</a>
               </div>
               <div class="col-12 ">
@@ -57,12 +89,12 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card" style="background-color:  rgb(156, 187, 255);" >
+            <div class="card" style="background-color:  rgb(156, 187, 255);object-fit: cover;" >
               <img class="card-img-top" src="img/art4.png" alt="art2" 
               style="border-radius: 70px;border-color: blue;"height="500em">
               <div class="card-body">
-                <h4 class="card-title">Articulo</h4>
-                <p class="card-text">Descripción </p>
+                <h4 class="card-title">Pop Dr. Eggman</h4>
+                <p class="card-text">Figura coleccionable Pop</p>
                 <a href="#" class="btn btn-primary">Comprar ahora</a>
               </div>
               <div class="col-12 ">
@@ -72,12 +104,12 @@
             </div>
         </div> 
         <div class="col-md-4">
-          <div class="card" style="background-color:  rgb(156, 187, 255);" >
+          <div class="card" style="background-color:  rgb(156, 187, 255);object-fit: cover;" >
             <img class="card-img-top" src="img/art6.png" alt="art2" 
             style="border-radius: 70px;border-color: blue;"height="500em">
             <div class="card-body">
-              <h4 class="card-title">Articulo</h4>
-              <p class="card-text">Descripción </p>
+              <h4 class="card-title">Camiseta Team Sonic</h4>
+              <p class="card-text">Camiseta basica Sonic Team Elaborada en algodon </p>
               <a href="#" class="btn btn-primary">Comprar ahora</a>
             </div>
             <div class="col-12 ">
@@ -87,12 +119,12 @@
           </div>
       </div> 
       <div class="col-md-4">
-        <div class="card" style="background-color:  rgb(156, 187, 255);" >
+        <div class="card" style="background-color:  rgb(156, 187, 255); object-fit: cover;" >
           <img class="card-img-top" src="img/art7.png" alt="art2" 
           style="border-radius: 70px;border-color: blue;"height="500em">
           <div class="card-body">
-            <h4 class="card-title">Articulo</h4>
-            <p class="card-text">Descripción </p>
+            <h4 class="card-title">Camiseta Team Shadow</h4>
+            <p class="card-text">Camiseta basica Shadow Elaborada en algodon </p>
             <a href="#" class="btn btn-primary">Comprar ahora</a>
           </div>
           <div class="col-12 ">
@@ -102,12 +134,12 @@
         </div>
     </div>
     <div class="col-md-4">
-      <div class="card" style="background-color:  rgb(156, 187, 255);" >
+      <div class="card" style="background-color:  rgb(156, 187, 255);object-fit: cover;" >
         <img class="card-img-top" src="img/art5.png" alt="art2" 
         style="border-radius: 70px;border-color: blue;"height="500em">
         <div class="card-body">
-          <h4 class="card-title">Articulo</h4>
-          <p class="card-text">Descripción </p>
+          <h4 class="card-title">Camiseta Sonic&amigos</h4>
+          <p class="card-text">Camiseta basica Sonic y sus amigos  Elaborada en algodon </p>
           <a href="#" class="btn btn-primary">Comprar ahora</a>
         </div>
         <div class="col-12 ">
