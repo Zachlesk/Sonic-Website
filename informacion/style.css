@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    overflow-x: hidden;
+}
 #padre{
     z-index: -20;
 }
@@ -14,9 +18,25 @@
     left: 0; 
     margin: 0 0 -1em 6.5em;
 }
+.divSonic{
+    margin-top: -1em;
+}
+.sonic1{
+    margin: 1em 0 0 42%;
+    
+}
+.sonic2{
+    margin-left: -2em;
+}
+.margi-1{
+    margin-top: -1em;
+}
+.margi-3{
+    margin-top: -3em;
+}
 .volteaX{
     transform: scaleX(-1);
-    margin:4em 3em 0 0;
+    margin:3em 2em 0 0;
     right: 0;
 }
 .cesped{
