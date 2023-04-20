@@ -109,6 +109,7 @@ main {
 @media (max-width: 548px) {
     .third-header {
         font-size: 20px;
+        z-index: -1;
     }
 }
 
@@ -119,11 +120,17 @@ main {
     right: 0;
 }
 
+@media (max-width: 1074px) {
+    .third-header {
+        display: grid;
+    }
+}
+
 .videogames {
     background-color: #39185b;
     background-size: cover;
-    background-repeat: no-repeat;   
-}
+    background-repeat: no-repeat;  
+    }
 
 .hiper {
     background: rgb(16,39,87);
