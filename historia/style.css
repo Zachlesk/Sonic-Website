@@ -34,7 +34,7 @@
 }
 
 main {
-    background-image: url(./imagenes/fondo.svg);
+    background-image: url(../imagenes/fondo.svg);
     background-repeat: no-repeat;
     background-size: cover;
     color: aliceblue;
