@@ -146,3 +146,23 @@ main {
 .footer {
     background-color: #4187c6;
 }
+
+
+  .hover-zoom {
+    
+    transition: transform 0.5s ease-in-out;
+    animation: zoom 1s infinite alternate;
+  }
+  
+  .hover-zoom:hover {
+    transform: scale(1.1);
+  }
+
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
