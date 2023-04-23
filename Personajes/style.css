@@ -12,6 +12,39 @@
 
 }
 
+.hover-zoom {
+    
+    transition: transform 0.5s ease-in-out;
+    animation: zoom 1s infinite alternate;
+  }
+  
+  .hover-zoom:hover {
+    transform: scale(1.1);
+  }
+
+  @keyframes zoom {
+    5% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(1.2);
+    }
+  }
+
+.imagen:hover{
+    background-image: url(img/fondohover.png);
+    margin-left: 1em;
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    animation: preserve-3d 3s;
+    border-radius:50%;
+    box-shadow: 0px 0px 20px 20px #f3f021;
+  
+
+}
+    
 .sega {
         width: 153px;
         height: 136px;

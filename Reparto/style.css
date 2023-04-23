@@ -1,0 +1,9 @@
+.img{
+    width:180px;
+    height:180px;
+    margin-left:40px;
+    margin-top:10px;
+}
+.img:hover{
+    background-image: url(../pelicula/img/anim1.png);
+}
