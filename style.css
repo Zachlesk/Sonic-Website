@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-color: #4187c6;
+}
+  
+.navigation {
+    background-color: #142038;
+    }
+
+.link {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.sega {
+        width: 153px;
+        height: 136px;
+        object-fit: contain;
+        background-color: #4187c6;
+}
+
+main {
+    background-image: url(./imagenes/fondo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    background-color: #142038;
+    
+}
+
+.first-header {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.subfirst-header {
+    font-size: 120px;
+    font-weight: 1000;
+}
+
+.textinfo {
+    font-size: 20px;
+}
+.buttonknow {
+
+    border: none;
+    border-radius: 10px;
+    background-color:#142038;
+    padding: 18px;
+    margin-top: 30px;
+    width: 30%;
+    height: 10%;
+    color: aliceblue;
+}
+
+.buttonknow:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+
+}
+
+@media (max-width: 548px) {
+    .sonic1 {
+        width: 120%;
+    }
+}
+
+
+.notice {
+    background: rgb(16,39,87);
+    background: -webkit-linear-gradient(90deg, rgba(16,39,87,1) 10%, rgba(24,38,66,1) 33%);
+}
+
+.notices:hover {
+    transform: scale(1.1);
+
+}
+
+.second-header {
+    font-size: 70px;
+    text-align: center;
+    padding: 50px;
+    font-weight: 900;
+}
+
+
+.media {
+    background-color: #142038;
+    background-image: url(./imagenes/fondo3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.netflix {
+    font-size: 23px;
+}
+
+.netflix-description {
+    font-size: 18px;
+}
+
+.third-header {
+    font-size: 70px;
+    padding: 50px;
+    font-weight: 900;
+}
+
+@media (max-width: 548px) {
+    .third-header {
+        font-size: 20px;
+        z-index: -1;
+    }
+}
+
+.sonic2 {
+    position: absolute;
+    margin: auto;
+    z-index: 0;
+    right: 0;
+}
+
+@media (max-width: 1074px) {
+    .third-header {
+        display: grid;
+    }
+}
+
+.videogames {
+    background-color: #39185b;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    }
+
+.hiper {
+    background: rgb(16,39,87);
+    background: -webkit-linear-gradient(90deg, #4187c6 10%, #39185b 33%);
+    background-size: cover ;
+}
+
+.behind {
+    background-color: #39185b;
+}
+
+.footer {
+    background-color: #4187c6;
+}
+
+
+.hover-zoom {
+    
+    transition: transform 0.5s ease-in-out;
+    animation: zoom 1s infinite alternate;
+  }
+  
+  .hover-zoom:hover {
+    transform: scale(1.1);
+  }
+
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
+
+.loading-area {
+	display: grid;
+	place-items: center;
+}
+.loader div {
+	height: 60px;
+	width: 60px;
+    border: 10px solid #efb810;
+	border-radius: 50% ;
+	transform: scale(0);
+	animation: animate 1.5s ease-in-out infinite;
+	display: inline-block;
+	margin: 10px;
+	filter: drop-shadow(0 0 5px #142038) drop-shadow(0 0 23px #081379);
+}
+.loader div:nth-child(0) {
+	animation-delay: 0s;
+}
+.loader div:nth-child(1) {
+	animation-delay: 0.2s;
+}
+.loader div:nth-child(2) {
+	animation-delay: 0.4s;
+}
+.loader div:nth-child(3) {
+	animation-delay: 0.6s;
+}
+.loader div:nth-child(4) {
+	animation-delay: 0.8s;
+}
+.loader div:nth-child(5) {
+	animation-delay: 1s;
+}
+.loader div:nth-child(6) {
+	animation-delay: 1.2s;
+}
+.loader div:nth-child(7) {
+	animation-delay: 1.4s;
+}
+@keyframes animate {
+	0%, 100% {
+		transform: scale(0.1);
+	}
+	40% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1);
+	}
+}
