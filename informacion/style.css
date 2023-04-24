@@ -2,7 +2,8 @@
 
 body{
     font-family: 'Alkatra', cursive;
-    background: linear-gradient( black 13%,#4f2958 20%, #1755A6, #0D1526, #7ACBFE, #4f2958 95%, rgb(254, 79, 79));
+    background: linear-gradient( black 13%,#4f2958 20%, #1755A6, #0D1526, #7ACBFE 65%, #4f2958 92%, cyan);
+    overflow-x: hidden;
 }
 p{
     font-size: 24px;
@@ -15,6 +16,15 @@ p{
     padding: 5px 15px;
     border-radius: 10% 20px;
     border: 2px #000000 solid;
+}
+.ba{
+    background-color: #1755A6;
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+}
+.ba:hover{
+    color: antiquewhite;
 }
 small{
     display: flex;
@@ -100,6 +110,24 @@ h2{
     background-image: url('../informacion/media/fondoRayos.png');
     background-size: cover;
 }
+
+/* ANIMACIONES */
+ .img1{
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+@keyframes slidein {
+    from {
+        margin-left: -100%;
+        width: 200%
+    }
+    
+    to {
+        margin-right: 0%;
+        width: 100%;
+    }
+}
 @media (max-width: 420px){
     p{
         font-size: 18px;
@@ -111,6 +139,9 @@ h2{
     }
     h2{
         font-size: 32px;
+    }
+    .margit-1{
+        margin-top: 0;
     }
     .mstE-1{
         margin-top: 0;
