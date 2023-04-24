@@ -11,6 +11,29 @@
     color: aliceblue;
 
 }
+.ani1{
+  width: 100px;
+  height: 100px;
+  background-image: url(../pelicula/img/anim1.png);
+  position:absolute;
+  animation-name: example;
+  animation-duration: 25s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+  
+}
+
+@keyframes example {
+  0%   {background-image: url(../pelicula/img/anim1.png); left:0px; top:0px;}
+  10%  {background-image: url(../pelicula/img/anim02.png); left:100%; top:0px;}
+  45%   {background-image: url(../pelicula/img/anim3.png); left:-20%; top:0px;}
+  70% {background-image: url(../pelicula/img/anim3.png); left:-50%; top:-20%}
+
+}
+
+
 
 .hover-zoom {
     
@@ -55,3 +78,4 @@
 .acor{
     color: azure;
 }
+
