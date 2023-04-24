@@ -2,13 +2,13 @@
 
 body{
     font-family: 'Alkatra', cursive;
-    background: linear-gradient( black 13%,#4f2958 20%, #1755A6, #0D1526, #7ACBFE, #4f2958 95%, cyan);
+    background: linear-gradient( black 13%,#4f2958 20%, #1755A6, #0D1526, #7ACBFE, #4f2958 95%, rgb(254, 79, 79));
 }
 p{
     font-size: 24px;
     line-height: 120%;
 }
-a{
+.a{
     background-color: #BF6A39;
     color: rgb(229, 230, 235);
     text-decoration: none;
