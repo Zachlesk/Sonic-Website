@@ -18,6 +18,10 @@
         object-fit: contain;
         background-color: #4187c6;
 }
-.footer {
-    background-color: rgb(16,39,87);
+
+.img{
+    width:180px;
+    height:180px;
+    margin-left:40px;
+    margin-top:10px;
 }
