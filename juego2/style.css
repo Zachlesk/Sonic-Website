@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(black, rgb(10, 10, 10),  rgb(82, 82, 82));
+    color: white;
+}
+.encabezado1{
+    background-image:  linear-gradient(90deg, transparent, rgb(0, 0, 0) 90%), url(https://areajugones.sport.es/wp-content/uploads/2018/05/team-sonic-racing-3-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+}
+.a{
+    color: white;
+    background-color: #FA7B2B;
+    padding: 10px;
+    border-radius: 20% 10%;
+    text-decoration: none;
+}
+.a:hover{
+    color: black;
+}
+.margiT-3{
+    margin-top: -4em;
+}
+.presenta{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(https://theartofgaming.es/wp-content/uploads/2020/08/Analisis-team-sonic-racing-0.jpg);
+    padding: 5em 0 5em 0;
+    background-size: cover;
+}
+.corito{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(https://www.topgear.com/sites/default/files/images/news-article/2019/05/7ef5a6f2c69aebf0160385f51b4eafdf/1.jpg);
+
+}
